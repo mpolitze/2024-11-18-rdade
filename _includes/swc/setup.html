@@ -1,4 +1,4 @@
-{% assign curricula = "swc-gapminder|swc-inflammation"  | split: "|" %}
+{% assign curricula = "swc-gapminder|swc-inflammation|"  | split: "|" %}
 {% unless curricula contains site.curriculum %}
 {% include warning-curriculum.html %}
 {% endunless %}
@@ -14,6 +14,7 @@
 {% elsif site.flavor == "FIXME" %}
 {% include install_instructions/r.html %}
 {% include install_instructions/python.html %}
+{% elsif site.flavor == "" %}
 {% else %}
 {% include warning-flavor.html %}
 {% endif %}
