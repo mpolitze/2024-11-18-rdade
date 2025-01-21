@@ -198,6 +198,9 @@ Modify the block below if there are any special requirements.
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  
+  Registration has to be done through the <a href="https://indico.desy.de/event/47204/" target="_blank"
+  rel="noopener noreferrer">RDA Deutschland registration webpage</a>.
 </p>
 
 {% comment %}
